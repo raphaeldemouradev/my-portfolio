@@ -284,6 +284,10 @@ footer {
 }
 
 @media screen and (max-width: 360px) { 
+    .perfil-plase {
+        margin-left: 0px;
+    }
+
     .catalogo-projeto p {
         margin-bottom: 20px;
     }
