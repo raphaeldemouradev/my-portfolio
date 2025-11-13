@@ -68,7 +68,7 @@ a {
 .txt-projetos {
     margin-top: 40px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
 
@@ -128,7 +128,7 @@ a {
     color: #fff;
     padding-top: 40px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
 
@@ -137,7 +137,7 @@ a {
     padding: 30px 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 .skill-front h1 {
@@ -228,7 +228,6 @@ footer {
 @media screen and (max-width: 650px) { 
     /*Perfil home*/    
     .perfil-home {
-        background-color: #011E53;
         width: 100%;
         height: 90vh;
         display: flex;
@@ -238,7 +237,6 @@ footer {
     .content-text {
         text-align: center;
         color: #fff;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
     }
 
@@ -255,11 +253,9 @@ footer {
     
     /* Habilidades */
     .container-skill {
-        list-style: inside;
-        padding: 30px 60px;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
         line-height: 1.5em;
+        padding: 30px 45px;
     }
 
     /* Contato */
@@ -268,15 +264,12 @@ footer {
     }
 }
 
-@media screen and (max-width: 650px) {
-    .perfil-plase {
-        margin-left: 0px;
-    }
-}
-
 @media screen and (max-width: 450px) { 
+    /* Habilidades */
     .container-skill {
         font-size: 15px;
+        line-height: 1.4em;
+        padding: 30px 30px;
     }
 
     .catalogo-projeto p {
@@ -294,11 +287,10 @@ footer {
         margin-bottom: 20px;
     }
 
+     /* Habilidades */
     .container-skill {
-        list-style: inside;
-        padding: 25px 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        line-height: 1.5em;
+        font-size: 14px;
+        line-height: 1.3em;
+        padding: 30px 20px;
     }
 }
