@@ -52,7 +52,7 @@ a {
 }
 
 .foto-perfil {
-    background-color: #fff;
+    background-color: #000;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -247,6 +247,7 @@ footer {
 
     .perfil-plase {
         margin-bottom: 40px;
+        margin-left: 0px;
     }
 
     /* Projeto Grade */
