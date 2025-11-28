@@ -4,54 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style-all.css">
+    <!--<link rel="stylesheet" href="./Styles/media-query.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <nav>
-           <!-- <a href="#">Home</a> -->
-        </nav>
-    </header>
+    <header></header>
 
-    <div class="perfil-home">
+    <section class="container-perfil">
         <div class="content-text">
             <h1 class="txt-name">Raphael de Moura</h1>
             <p class="txt-job">Desenvolvedor Front-end</p>
         </div>
-        <div class="perfil-plase">
-            <img class="foto-perfil" src="https://github.com/raphaeldemouradev/my-portfolio/blob/main/imagens/ft-Raphinha.png?raw=true" alt="">
+        <div class="content-image">
+            <img class="foto-perfil" src="https://github.com/raphaeldemouradev/my-portfolio/blob/main/imagens/ft-Raphinha.png?raw=true" alt="img">
         </div>
-    </div>
+    </section>
 
-    <div class="projetos-content">
+    <section class="container-projetos"> <!--//Editando aqui-->
         <h1 class="txt-projetos">Projetos</h1>
 
-        <div class="grid-projetos">
-            <section class="catalogo-projeto">
+        <article class="grid-projetos">
+
+            <div class="quadro-projetos">
                 <img class="banner" src="" alt="">
-                <div class="body-card">
-                    <p>Catalogo de Filmes feito com React e JavaScript com API integrada.</p>
-                    <nav>
+                <div class="body-quadro">
+                    <p class="descricao-projeto">Catalogo de Filmes feito com React e JavaScript com API integrada.</p>
+                    <button class="button-projeto">
                         <a href="https://prototipo-catalogo.netlify.app/">Ver Projeto</a>
-                    </nav>
+                    </button>
                 </div>
-            </section>
+            </div>
 
-            <section></section>
-        </div>
-    </div>
+            <div class="quadro-projetos"></div>
+        </article>
+    </section>
 
-    <div class="habilidades-content">
+    <section class="habilidades-container">
         <h1 class="txt-habilidades">Habilidades</h1>
 
-        <div class="container-skill">
+        <div class="content-skill">
             <div class="skill-front">
                 <h1>Front-end</h1>
                 <ul>
                     <li><strong>Linguagens:</strong> HTML, CSS e JavaScript.</li>
                     <li><strong>Biblioteca/Framework:</strong> React.js e Expo.</li>
-                    <li><strong>Ferramentas:</strong> Git, GitHub e VITE.</li>
+                    <li><strong>Ferramentas:</strong> npm, Git, GitHub e VITE.</li>
                 </ul>
             </div>
             <div class="skill-design">
@@ -64,9 +62,9 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="contato-content">
+    <section class="contato-container">
         <h1 class="txt-contato">Contato</h1>
         <p style="text-align: center; font-weight: 800;">⚠️Aviso: Contato indisponivel!⚠️</p>
 
@@ -91,7 +89,7 @@
             </a>
             <i class="fa-brands fa-instagram"></i>
         </div>
-    </div>
+    </section>
 
     <footer>
         <p> &copy 2025 Raphael.Dev - Todos os direitos reservados.</p>

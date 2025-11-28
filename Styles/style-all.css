@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #011E53;
+    --cor2: #ccc;
+}
+
+/* Container Perfil */
+header {
+    background-color: #002a79;
+    height: 20px;
+}
+
+section.container-perfil {
+    background-color: var(--cor1);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+div.content-text {
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+}
+
+h1.txt-name {
+    color: #FF5858;
+    margin-bottom: 4px;
+}
+
+p.txt-job {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img.foto-perfil {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Projeto Container/Grade */
+section.container-projetos {
+    background-color: var(--cor2);
+    padding-top: 50px;
+    width: 100%;
+    height: 94vh;
+}
+
+h1.txt-projetos {
+    text-align: center;
+    font-weight: 800;
+}
+
+article.grid-projetos { /* Melhorar essa no futuro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Quadros da Grade */
+div.quadro-projetos {
+    background-color: gray;
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    display: block;
+    margin: 5px;
+}
+
+img.banner {
+    background-color: #525252;
+    width: 100%;
+    height: 120px;
+}
+
+div.body-quadro {
+    margin: 5px;
+}
+
+p.descricao-projeto { /* Tentar melhorar o botao no futuro*/
+    margin-bottom: 15px;
+}
+
+button.button-projeto {
+    margin: auto;
+    display: block;
+    background-color: #007c3e;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+button.button-projeto a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Habilidades Content */
+section.habilidades-container {
+    background-color: var(--cor1);
+    width: 100%;
+    height: 94vh;
+    padding-top: 50px;
+}
+
+h1.txt-habilidades {
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+}
+
+/*skill container*/
+div.content-skill {
+    list-style: inside;
+    padding: 30px 20px;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+/*Front Skill*/                /* Estou aqui */
+div.skill-front {
+    margin-bottom: 100px;
+}
+
+div.skill-front h1 {
+    color: #00D9FF;
+    padding-bottom: 10px;
+}
+
+div.skill-front ul {
+    color: #009DFF;
+}
+
+/*Design skill*/
+div.skill-design h1 {
+    color: #0ac900;
+    padding-bottom: 10px;
+}
+
+div.skill-design ul {
+    color: #00db6e;
+}
+
+/* Contato Content */
+section.contato-container { 
+    background-color: var(--cor2);
+    padding-top: 50px;
+    width: 100%;
+    height: 94vh;
+}
+
+h1.txt-contato {
+    text-align: center;
+    font-weight: 800;
+}
+
+
+
+
+
+/* Footer area */
+footer {
+    background-color: #000;
+    height: 60px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
