@@ -50,13 +50,6 @@
     }
 
     /* Contato Content */
-    label input, textarea {
-        padding: 10px;
-        width: 500px;
-        background-color: #cfcfcf;
-        border: 0;
-    }
-
     form > div > input, textarea {
         width: 500px;
         font-size: 20px;
@@ -72,8 +65,77 @@
         font-size: 40px;
     }
 
-    /* Footer area */
-    footer {
+}
+
+
+@media screen and (min-width: 992px) {
+    /* Container Perfil */
+    header {
+        height: 40px;
+    }
+
+    section.container-perfil { 
+        flex-direction: row;
+    }
+
+    div.content-text { 
+        text-align: right;
+        font-size: 25px;
+        margin-right: 40px;
+    }
+
+    p.txt-job {
+        font-size: 25px;
+    }
+
+    /* Projeto Container/Grade */
+    /* Quadros da Grade */
+    div.quadro-projetos {
+        margin-top: 20px;
+        width: 300px;
+        height: 300px;
+    }
+
+    button.button-projeto {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    img.banner { 
+        height: 140px;
+    }
+
+    p.descricao-projeto {
         font-size: 1.2em;
+    }
+
+    /* Habilidades Content */
+    /*skill container*/
+    div.content-skill {
+        margin: 50px 80px;
+        font-size: 24px;
+        line-height: 1.4em;
+    }
+
+    /* Contato Content */ 
+    label input, textarea { 
+        padding: 10px;
+        width: 500px;
+        background-color: #cfcfcf;
+        border: 0;
+    }
+
+    form > div > input, textarea {
+        width: 500px;
+        font-size: 18px;
+    }
+
+    form input[type=submit] {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    div.midias-sociais {
+        font-size: 40px;
     }
 }
