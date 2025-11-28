@@ -31,7 +31,9 @@ section.container-perfil {
 div.content-text {
     text-align: center;
     color: #fff;
-    margin: 10px;
+    margin-top: 10px;
+    transition: .3s;
+    transition-timing-function: ease;
 }
 
 h1.txt-name {
@@ -49,6 +51,8 @@ img.foto-perfil {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    transition: .3s;
+    transition-timing-function: ease;
 }
 
 /* Projeto Container/Grade */
@@ -126,7 +130,7 @@ h1.txt-habilidades {
 /*skill container*/
 div.content-skill {
     list-style: inside;
-    padding: 30px 20px;
+    margin: 30px 20px;
     font-size: 14px;
     line-height: 1.3em;
 }
@@ -185,6 +189,10 @@ form > div > input, textarea {
     width: 300px;
     background-color: #cfcfcf;
     border: 0;
+}
+
+textarea {
+    height: 120px;
 }
 
 form input[type=submit] {

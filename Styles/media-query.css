@@ -2,162 +2,54 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* Container Perfil */
-    section.container-perfil { 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: none;
+    header {
+        height: 40px;
     }
 
-    .content-text { 
+    section.container-perfil { 
+        flex-direction: row;
+    }
+
+    div.content-text { 
         text-align: right;
-        color: #fff;
+        font-size: 20px;
+        margin-right: 40px;
+    }
+
+    p.txt-job {
+        font-size: 22px;
+    }
+
+    /* Projeto Container/Grade */
+    /* Quadros da Grade */
+    div.quadro-projetos {
+        margin-top: 20px;
+        width: 300px;
+        height: 300px;
+    }
+
+    button.button-projeto {
+        margin-top: 40px;
         font-size: 20px;
     }
 
-    .txt-name {
-        color: #FF5858;
-        margin-bottom: 5px;
+    img.banner { 
+        height: 140px;
     }
 
-    .txt-job {
-        font-size: 25px;
-    }
-
-    .perfil-plase {
-        margin-left: 50px;
-    }
-
-    .foto-perfil {
-        background-color: #fff;
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-    }
-
-    /* Projeto Container */
-    .projetos-content {
-        background-color: #fff;
-        width: 100%;
-        height: 95vh;
-    }
-
-    .txt-projetos {
-        margin-top: 40px;
-        text-align: center;
-        font-weight: 800;
-    }
-
-    .grid-projetos { 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .grid-projetos section {
-        background-color: gray;
-        width: 250px;
-        height: 250px;
-        margin: 5px;
-    }
-
-    /*catalogo-projeto primeiro quadro*/
-    .banner { 
-        background-color: #525252;
-        width: 100%;
-        height: 120px;
-    }
-
-    .body-card {
-        margin: auto;
-        padding: 5px;
-        display: block;
-    }
-
-    .catalogo-projeto p {
-        margin-bottom: 35px;
-    }
-
-    .catalogo-projeto nav {
-        text-align: center;
-    }
-
-    .catalogo-projeto a {
-        background-color: #007c3e;
-        padding: 5px 10px;
-        border-radius: 10px;
-        color: #fff;
-        font-weight: bold;
-        text-decoration: none;
+    p.descricao-projeto {
+        font-size: 1.2em;
     }
 
     /* Habilidades Content */
-.habilidades-content {
-        background-color: #011E53;
-        width: 100%;
-        height: 95vh;
-    }
-
-    .txt-habilidades { 
-        color: #fff;
-        text-align: center;
-        font-weight: 800;
-    }
-
-    .container-skill { 
-        list-style: inside;
-        padding: 30px 60px;
-        font-size: 20px;
-        line-height: 1.6em;
-    }
-
-    .skill-front h1 {
-        color: #00D9FF;
-        padding-bottom: 10px;
-    }
-
-    .skill-front ul {
-        color: #009DFF;
-    }
-
-    .skill-design {
-        padding-top: 100px;
-    }
-
-    .skill-design h1 {
-        color: #0DFF00;
-        padding-bottom: 10px;
-    }
-
-    .skill-design ul {
-        color: #00FF80;
+    /*skill container*/
+    div.content-skill {
+        margin: 50px 50px;
+        font-size: 24px;
+        line-height: 1.4em;
     }
 
     /* Contato Content */
-    .contato-content { 
-        background-color: #fff;
-        width: 100%;
-        height: 95vh;
-    }
-
-    .txt-contato {
-        padding-top: 40px;
-        text-align: center;
-        font-weight: 800;
-    }
-
-    form {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    label {
-        margin: 20px 0px;
-    }
-
     label input, textarea {
         padding: 10px;
         width: 500px;
@@ -165,55 +57,23 @@
         border: 0;
     }
 
-    textarea {
-        height: 100px;
+    form > div > input, textarea {
+        width: 500px;
+        font-size: 20px;
+        margin-top: 20px;
     }
 
-    .button-area button {
-        padding: 10px 20px;
-        background-color: #cfcfcf;
-        border: 0;
-        font-weight: 700;
-        cursor: pointer;
+    form input[type=submit] {
+        font-size: 20px;
+        margin-top: 20px;
     }
 
-    .midias-sociais {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 30px;
-        margin-top: 50px;
-    }
-}
-
-@media screen and (max-width: 650px) { 
-    /* Habilidades */
-    .container-skill {
-        font-size: 18px;
-        line-height: 1.5em;
-        padding: 30px 45px;
+    div.midias-sociais {
+        font-size: 40px;
     }
 
-    /* Contato */
-    label input, textarea {
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 450px) { 
-    /* Habilidades */
-    .container-skill {
-        font-size: 15px;
-        line-height: 1.4em;
-        padding: 30px 30px;
-    }
-
-    .catalogo-projeto p {
-        margin-bottom: 25px;
-    }
-
-    /* Contato */
-    label input, textarea {
-        width: 300px;
+    /* Footer area */
+    footer {
+        font-size: 1.2em;
     }
 }
