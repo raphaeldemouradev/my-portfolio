@@ -9,7 +9,7 @@
 
 :root {
     --cor1: #011E53;
-    --cor2: #ccc;
+    --cor2: #fff;
 }
 
 /* Container Perfil */
@@ -131,7 +131,7 @@ div.content-skill {
     line-height: 1.3em;
 }
 
-/*Front Skill*/                /* Estou aqui */
+/*Front Skill*/
 div.skill-front {
     margin-bottom: 100px;
 }
@@ -168,9 +168,44 @@ h1.txt-contato {
     font-weight: 800;
 }
 
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+form > div {
+    margin: 10px 0px;
+}
 
+form > div > input, textarea {
+    padding: 10px;
+    width: 300px;
+    background-color: #cfcfcf;
+    border: 0;
+}
 
+form input[type=submit] {
+    padding: 10px 20px;
+    background-color: #cfcfcf;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+div.midias-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+div.midias-sociais > a {
+    color: black;
+}
 
 /* Footer area */
 footer {

@@ -68,27 +68,30 @@
         <h1 class="txt-contato">Contato</h1>
         <p style="text-align: center; font-weight: 800;">⚠️Aviso: Contato indisponivel!⚠️</p>
 
-        <form action="">
-            <label form="">
-                <input type="text" placeholder="Digite seu Nome">
-            </label>
-            <label for="">
-                <input type="email" placeholder="Digite seu Email">
-            </label>
-            <label for="">
-                <textarea placeholder="Digite sua Mensagem"></textarea>
-            </label>
-            <div class="button-area">
-                <button type="submit" id="submit">Enviar</button>
+        <form action="formulario.php" method="post">
+            <div>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome">
             </div>
+            <div>
+                <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail">
+            </div>
+            <div>
+                <textarea name="msg" id="imsg" placeholder="Digite sua mensagem"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" id="submit">
         </form>
 
-        <div class="midias-socias">
+        <div class="midias-sociais">
             <a href="https://www.linkedin.com/in/raphael-moura-314611394/">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
-            <i class="fa-brands fa-instagram"></i>
+            <a href="https://github.com/raphaeldemouradev">
+                <i class="fa-brands fa-github"></i>
+            </a>
         </div>
+
+        <p style="text-align: center; font-weight: 700; padding-top: 5px;">Utilize o "Linkedin" para contato!</p>
     </section>
 
     <footer>
