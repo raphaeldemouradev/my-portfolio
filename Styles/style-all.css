@@ -21,7 +21,7 @@ header {
 section.container-perfil {
     background-color: var(--cor1);
     width: 100%;
-    height: 90vh;
+    height: 88vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,11 +76,11 @@ article.grid-projetos { /* Melhorar essa no futuro */
 
 /* Quadros da Grade */
 div.quadro-projetos {
+    display: block;
     background-color: gray;
     width: 250px;
     height: 250px;
     margin-top: 10px;
-    display: block;
     margin: 5px;
     border-radius: 10px;
     overflow: hidden;
@@ -142,7 +142,7 @@ h1.txt-habilidades {
 div.content-skill {
     list-style: inside;
     margin: 30px 20px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.3em;
 }
 
@@ -175,7 +175,7 @@ section.contato-container {
     background-color: var(--cor2);
     padding-top: 50px;
     width: 100%;
-    height: 100%;
+    height: 90vh;
     padding-bottom: 10px;
 }
 
@@ -211,6 +211,10 @@ form input[type=submit] {
     font-weight: 700;
     cursor: pointer;
     margin-top: 10px;
+}
+
+form input[type=submit]:hover {
+    background-color: #adadad;
 }
 
 div.midias-sociais {
