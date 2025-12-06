@@ -103,6 +103,7 @@
 
     img.banner { 
         height: 140px;
+        width: 140px;
     }
 
     p.descricao-projeto {
